@@ -1,0 +1,24 @@
+.chat {
+     margin: auto;
+     width: 50%;
+     border: 3px solid blue;
+     position: fixed;
+     bottom: 0; 
+     right: 25%;
+     display: flex;
+     border-radius: 10px;
+}
+
+.app {
+    width: 100%;
+}
+
+.app > div {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.message {
+    border: 1px blue solid;
+    border-radius: 10px;
+}
