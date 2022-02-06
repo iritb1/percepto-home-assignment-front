@@ -1,0 +1,64 @@
+@import '~antd/dist/antd.css';
+.app {
+  text-align: center;
+  display: flex;
+  height: 100%;
+}
+
+#root {
+  height: 100%
+}
+
+.user > .ant-form-item-label > label {
+  font-family: "Tahoma", Times, serif;
+  font-size: 30px;
+  height: 58px;
+}
+
+.user > .ant-form-item-control input {
+  font-family: "Tahoma", Times, serif;
+  font-size: 30px;
+}
+
+.app-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .app-logo {
+    animation: app-logo-spin infinite 20s linear;
+  }
+}
+
+.login-form {
+  margin: auto;
+}
+
+.app-header {
+  display: flex;
+}
+
+/* .app-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+.app-link {
+  color: #61dafb;
+}
+
+@keyframes app-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
